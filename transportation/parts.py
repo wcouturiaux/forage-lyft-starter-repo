@@ -40,6 +40,8 @@ class SternmanEngine(IEngine):
     def needs_service(self):
         return self.warning_light_on
 
+# Batteries
+
 
 class SpindlerBattery(IBattery):
 
