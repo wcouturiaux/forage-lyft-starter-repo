@@ -10,7 +10,7 @@ class IServiceable(ABC):
 
 class Car(IServiceable):
 
-    def __init__(self, last_service_date, engine, battery):
+    def __init__(self, engine, battery):
         self.engine = engine
         self.battery = battery
 
